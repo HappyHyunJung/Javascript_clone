@@ -1,0 +1,72 @@
+* {
+    margin: 0px;
+}
+
+.hidden {
+    display: none;
+}
+
+#range {
+    font-weight: bolder;
+}
+
+#result {
+    font-weight: bolder;
+}
+
+html {
+    width: 450px;
+    height: 350px;
+    margin: auto;
+}
+/* webpage body에 이미지 넣기 - 이미지를 반복하지 않고 body 너비에 맞게 */
+body {
+    width: 450px;
+    height: 450px;
+    margin: auto;
+    /* background-image: url("../img/0.jpg"); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+#login-form input {
+    width: 350px;
+}
+
+#login-form button {
+    background-color: blue;
+    color: bisque;
+}
+
+#weather {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+  }
+
+#todo-form input {
+    width: 350px;
+    margin: 10px 0px;
+}
+
+#todo-list {
+    list-style-type: none;
+}
+  
+
+div#quote span:nth-child(1) {
+    display: block;
+    color: rgb(106, 2, 106);
+    font-weight: bolder;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+div#quote span:nth-child(2){
+    font-size: 25px;
+    text-align: center;
+    margin-top: 200px;
+    width: 450px;
+}
